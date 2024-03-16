@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "고양이와 데이터 분석"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jeong Seongjin"
+name                     : "정성진"
 description              : # "An amazing website."
 url                      : "https://datacat1122.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"

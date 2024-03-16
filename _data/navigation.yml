@@ -2,9 +2,11 @@
 main:
   - title: "Home"
     url: https://datacat1122.github.io/
-  - title: "Category"
+  - title: "by Year"
+    url: /year-archive/
+  - title: "by Category"
     url: /categories/
-  - title: "Tag"
+  - title: "by Tag"
     url: /tags/
   - title: "Search"
     url: /search/
