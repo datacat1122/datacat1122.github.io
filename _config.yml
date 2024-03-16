@@ -110,6 +110,9 @@ author:
   location         : # "Somewhere"
   email            :
   links:
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCz2iLG9okWjBztKyOJhVjtQ"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:datacat1122@email.com"
@@ -132,6 +135,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCz2iLG9okWjBztKyOJhVjtQ"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:datacat1122@email.com"
