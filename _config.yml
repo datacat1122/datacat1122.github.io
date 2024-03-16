@@ -25,7 +25,7 @@ url                      : "https://datacat1122.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/datacat1122/datacat1122.github.io/"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/images/bio-photo.png  # path of logo image to display in the masthead, 88x88
+logo                     : /assets/images/logo.png  # path of logo image to display in the masthead, 88x88
 masthead_title           : "고양이와 데이터 분석"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -221,9 +221,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 15 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -260,16 +260,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
